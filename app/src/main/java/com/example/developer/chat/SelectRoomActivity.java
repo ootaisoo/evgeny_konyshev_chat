@@ -62,7 +62,7 @@ public class SelectRoomActivity extends AppCompatActivity implements AddRoomDial
     @Override
     public void onDialogPositiveClick(@NotNull String roomName) {
         roomsAdapter.add(roomName);
-        this.chats.put(roomName, new ArrayList<String>());
+        chats.put(roomName, new ArrayList<String>());
     }
 
     @Override
